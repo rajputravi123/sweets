@@ -1,0 +1,1137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+    padding: 0px 50px;
+
+}
+
+body {
+    font-family: "Poppins", serif;
+}
+
+section {
+    width: 100%;
+    float: left;
+    padding: 100px 0px 80px 0px;
+}
+
+section:nth-child(1) {
+    padding: 10px 0px 0px 0px;
+}
+
+section:nth-child(2) {
+    background-color: #d2af6e;
+}
+
+section:nth-child(4) {
+    background-color: #ddc3921a;
+}
+
+header {
+    width: 100%;
+    float: left;
+
+}
+
+.mainheader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.logo {
+    float: left;
+    max-width: 150px;
+}
+
+.logo img {
+    max-width: 100%;
+}
+
+.menu {
+    width: auto;
+    float: left;
+}
+
+.menu ul {
+    width: auto;
+    display: flex;
+    gap: 40px;
+
+}
+
+.menu ul li {
+    display: inline-block;
+    list-style: none;
+    text-transform: capitalize;
+    font-weight: 500;
+    position: relative;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #12141d;
+    transition: 0.4s;
+
+}
+
+.menu ul li a:hover {
+    color: #800809;
+
+}
+
+.menu ul li a:after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    height: 1px;
+    background-color: #800809;
+    width: 100%;
+    transition: 0.4s;
+    transform: scaleX(0);
+}
+
+
+.menu ul li a:hover:after {
+    transform: scaleX(1);
+}
+
+.social {
+    width: auto;
+    float: left;
+}
+
+.social ul {
+    width: auto;
+    display: flex;
+    flex-direction: row !important;
+    gap: 10px;
+
+}
+
+.social ul li {
+    display: inline-block;
+    list-style: none;
+    text-transform: capitalize;
+
+}
+
+
+.social ul li a {
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    float: left;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    transition: 0.4s;
+
+}
+
+.social ul li a i {
+    font-size: 22px;
+
+}
+
+
+.social ul li:hover a {
+    color: #810709 !important;
+    transform: scale(1.1);
+
+}
+
+.banner {
+    width: 100%;
+    float: left;
+}
+
+.mainbanner {
+    width: 100%;
+    /* height: 500px; */
+    display: flex;
+    align-items: center;
+    background-image: url(https://landing.shopilaunch.com/caking/assets/images/bg_4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    overflow: hidden;
+    gap: 20px;
+
+}
+
+.bntext {
+    width: 60%;
+    float: left;
+}
+
+.mainbntext {
+    width: 100%;
+    float: left;
+}
+
+.mainbntext h4 {
+    font-size: 65px;
+    color: #800809;
+    margin-bottom: 25px;
+    line-height: 85px;
+}
+
+.mainbntext p {
+    color: #12141d;
+    font-size: 18px;
+    line-height: 30px;
+
+}
+
+.mainbntext button {
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    background-color: #800809;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 25px;
+    transition: 0.4s;
+}
+
+.mainbntext button:hover {
+    background-color: #fff;
+    color: #12141d;
+}
+
+.bnimg {
+    width: 40%;
+    float: left;
+}
+
+.mainbnimg {
+    width: 100%;
+    float: left;
+    filter: drop-shadow(2px 4px 6px #ddd);
+}
+
+.mainbnimg img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.items {
+    width: 100%;
+    float: left;
+}
+
+.mainitems {
+    width: 100%;
+    float: left;
+
+}
+
+.mainitems h4 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    position: relative;
+
+}
+
+/* .mainitems h4:after {
+    content: '';
+    position: absolute;
+    bottom: -17px;
+    left: 0;
+    width: 150px;
+    height: 3px;
+    background-color: #000000;
+    right: 0;
+    margin: auto;
+}
+
+.mainitems h4:before {
+    content: '';
+    position: absolute;
+    bottom: -17px;
+    left: 0;
+    z-index: 1;
+    width: 75px;
+    height: 3px;
+    background-color: rgb(210 175 110);
+    right: 0;
+    margin: auto;
+} */
+
+
+.mainitems h4 span {
+    color: #d2af6e;
+}
+
+.itmeall {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 43px;
+    background-image: url(https://landing.shopilaunch.com/caking/assets/images/bg_4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    overflow: hidden;
+}
+
+.itmeimg {
+    width: 17%;
+    float: left;
+}
+
+.mainitmeimg {
+    width: 100%;
+    float: left;
+    box-shadow: 0px 4px 10px #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+.barfiimg {
+    width: 100%;
+    float: left;
+    height: 250px;
+    padding: 10px;
+    transition: 0.7s;
+    background-color: #d2af6e2e;
+}
+
+.barfiimg img {
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+    object-fit: contain;
+    filter: drop-shadow(0px 10px 10px #0000008e);
+
+}
+
+.barfiimg:hover {
+    transform: scale(1.1);
+}
+
+.mainitmeimg p {
+    text-align: center;
+    font-size: 20px;
+    text-transform: capitalize;
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    background: #d2af6e;
+    color: #fff;
+    transition: 0.4s;
+
+}
+
+.mainitmeimg p:hover {
+    background-color: #800809;
+}
+
+.team {
+    width: 100%;
+    float: left;
+
+}
+
+.mainteam {
+    width: 100%;
+    float: left;
+    /* background-image: url(https://landing.shopilaunch.com/caking/assets/images/bg_4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top; */
+    overflow: hidden;
+
+}
+
+.itemsallll {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+
+.teamall {
+    width: 25%;
+    float: left;
+
+}
+
+.mainteamall {
+    width: 100%;
+    float: left;
+    box-shadow: 0px 4px 10px #ddd;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.teamimg {
+    width: 100%;
+    float: left;
+}
+
+.teamimg img {
+    width: 100%;
+    vertical-align: top;
+
+}
+
+.teamtext {
+    width: 100%;
+    float: left;
+    padding: 10px 10px;
+    background-color: #fff;
+}
+
+.teamtext h6 {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+
+.teamtext p {
+    text-align: center;
+    font-size: 16px;
+
+}
+
+.teamsocial {
+    width: 100%;
+    float: left;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform-origin: top;
+    opacity: 0;
+    transition: 0.7s;
+    z-index: 2;
+
+}
+
+.mainteamall:after {
+    content: "";
+    width: 100%;
+    height: 0;
+    background: #d2af6e44;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    transform: scaleY(0);
+    transition: 0.7s;
+    transform-origin: bottom;
+}
+
+.mainteamall:hover:after {
+    height: 100%;
+    transform: scaleY(1);
+
+}
+
+.mainteamall:hover .teamsocial {
+    opacity: 1;
+    bottom: 80px;
+}
+
+.teamsocial ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.teamsocial ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.teamsocial ul li a {
+    width: 40px;
+    height: 40px;
+    float: left;
+    background-color: #d2af6e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+    animation-name: solicon;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-delay: 0s;
+
+}
+
+.teamsocial ul li a i {
+    font-size: 20px;
+
+}
+
+@keyframes solicon {
+
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(50deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+
+}
+
+.about {
+    width: 100%;
+    float: left;
+}
+
+.mainabout {
+    width: 100%;
+    float: left;
+}
+
+.aboutcontent {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    gap: 60px;
+
+}
+
+.abimg {
+    width: 50%;
+    float: left;
+}
+
+.mainabimg {
+    width: 100%;
+    height: 410px;
+    float: left;
+
+}
+
+.mainabimg img {
+    width: 100%;
+    vertical-align: top;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.abtext {
+    width: 50%;
+    float: right;
+}
+
+
+
+.mainabtext h6 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    float: left;
+
+}
+
+.mainabtext span {
+    color: #d2af6e;
+}
+
+.mainabtext p {
+    float: left;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: math-auto;
+    margin-top: 20px;
+    color: #808080;
+
+}
+
+.mainabtext button {
+    float: left;
+    margin-top: 25px;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #800809;
+    color: #fff;
+    transition: 0.4s;
+
+}
+
+.mainabtext button:hover {
+    background-color: #fff;
+    color: #12141d;
+    box-shadow: 0px 4px 10px #ddd;
+}
+
+/* #mp {
+    padding: 0;
+    background-image: url(https://landing.shopilaunch.com/caking/assets/images/bg_4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    overflow: hidden;
+} */
+
+.maps {
+    width: 100%;
+    float: left;
+}
+
+.mainmaps {
+    width: 100%;
+    display: flex;
+    gap: 60px;
+}
+
+.abimg {
+    width: 50%;
+    float: left;
+}
+
+.mainabimg {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    border: 2px solid #ddddddb8;
+    border-radius: 10px;
+}
+
+.abtext {
+    width: 50%;
+    float: right;
+}
+
+.mainabtextt {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+
+.alladdbox {
+    display: flex;
+    align-items: start;
+    gap: 20px;
+    max-width: 360px;
+}
+
+.addicon {
+    width: auto;
+    float: left;
+}
+
+.addicon a i {
+    font-size: 22px;
+    transition: 0.7s;
+    color: #000;
+
+}
+
+.addicon a i:hover {
+    color: #d2af6e;
+    transform: scale(1.1);
+
+}
+
+.additext {
+    width: auto;
+    float: right;
+}
+
+.additext h6 {
+    width: 100%;
+    text-transform: capitalize;
+    line-height: 1;
+    font-size: 22px;
+    font-weight: 500;
+
+}
+
+.additext p {
+    float: left;
+    color: #808080;
+    font-size: 16px;
+    margin-top: 10px;
+
+}
+
+.itemsallll::-webkit-scrollbar {
+    display: none;
+}
+
+#rw{
+    /* background-image: url(https://landing.shopilaunch.com/caking/assets/images/bg_4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top; */
+    background-color: #ddc3921a;
+}
+
+.review {
+    width: 100%;
+    float: left;
+}
+
+.mainreview {
+    width: 100%;
+    float: left;
+}
+
+.reviewbox {
+    width: auto;
+    float: left;
+    padding: 15px;
+}
+
+.mainrevieww {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    box-shadow: 0px 4px 10px #ddd;
+    border-radius: 5px;
+    padding: 30px;
+    background-color: #fff;
+}
+
+.mainrevieww span i {
+    font-size: 22px;
+    color: #F1B823;
+}
+
+.mainreviewbox {
+    width: 100%;
+    float: left;
+
+}
+
+.reviewimg {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.mainreview p {
+    font-style: italic;
+    float: left;
+}
+
+.reviewimg span {
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    border-radius: 50%;
+    float: left;
+}
+
+.reviewimg ul li {
+    list-style: none;
+    text-transform: capitalize;
+}
+
+.reviewimg ul li:last-child {
+    color: #F1B823;
+}
+
+.slick-current {
+    transform: translateY(-20px);
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #d2af6e !important;
+}
+
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 12px !important;
+    border: 1px solid;
+    border-radius: 50%;
+    line-height: 22px !important;
+}
+
+#ft {
+    background-color: #ddc392;
+    padding: 60px 0px 50px 0px;
+
+}
+
+.footer {
+    width: 100%;
+    float: left;
+}
+
+.mainfooter {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerlist {
+    width: auto;
+    float: left;
+}
+
+.mainfooterlist {
+    width: 100%;
+    float: left;
+}
+
+.mainfooterlist a {
+    max-width: 150px;
+    float: left;
+}
+
+.mainfooterlist a img {
+    max-width: 100%;
+}
+
+.mainfooterlist ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.mainfooterlist ul li {
+    display: inline-block;
+    list-style: none;
+    white-space: nowrap;
+    text-transform: capitalize;
+
+}
+
+.mainfooterlist ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.7s;
+
+}
+
+.mainfooterlist ul li a:hover {
+    transform: translateX(10px);
+    color: #800809;
+}
+
+.mainfooterlist h6 {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    color: #fff;
+
+}
+
+.menubar {
+    display: none;
+}
+
+.close {
+    display: none;
+}
+
+
+@media screen and (max-width:992px) {
+
+    .container {
+        padding: 0px 20px;
+    }
+
+    section {
+        padding: 60px 0px 40px 0px;
+    }
+
+    .logo {
+        max-width: 100px;
+    }
+
+    .menu ul {
+        gap: 30px;
+    }
+
+    .social ul li a {
+        width: 35px;
+        height: 35px;
+    }
+
+    .social ul li a i {
+        font-size: 17px;
+    }
+
+    .mainbntext h4 {
+        font-size: 44px;
+        line-height: 60px;
+        margin-bottom: 20px;
+    }
+
+    .mainbntext p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .itmeall {
+        gap: 36px;
+        justify-content: center;
+    }
+
+    .itmeimg {
+        width: 22%;
+    }
+
+    .mainitmeimg p {
+        font-size: 18px;
+    }
+
+    .mainitems h4 {
+        margin-bottom: 40px;
+    }
+
+    .itemsallll {
+        gap: 29px;
+        flex-wrap: wrap;
+    }
+
+    .teamall {
+        width: 22%;
+    }
+
+    .aboutcontent {
+        align-items: center;
+        gap: 40px;
+    }
+
+    .abimg {
+        width: 40%;
+    }
+
+    .abtext {
+        width: 60%;
+    }
+
+    .mainabtext h6 {
+        line-height: 35px;
+    }
+
+    .mapp {
+        width: 60%;
+    }
+
+    .additext h6 {
+        font-size: 18px;
+    }
+
+    .addicon a i {
+        font-size: 20px;
+    }
+
+    .mainreview p {
+        text-align: center;
+    }
+
+    .reviewimg {
+        justify-content: center;
+    }
+
+
+
+}
+
+@media screen and (max-width:768px) {
+
+    .menu {
+        transform: scaleX(0);
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #ddc392;
+        width: 100%;
+        height: 100vh;
+        z-index: 1;
+        transition: 0.9s;
+        transform-origin: left;
+        padding: 20px;
+
+    }
+
+    .menu ul {
+        gap: 0;
+        flex-direction: column;
+    }
+
+    .menu ul li {
+        padding: 15px 0px;
+        border-bottom: 1px solid #8008091c;
+
+    }
+
+    .menu ul li:nth-child(1) {
+        padding-top: 0;
+    }
+
+    .menu ul li a {
+        color: #800809;
+    }
+
+    .show {
+        transform: scaleX(1);
+    }
+
+    .close {
+        width: auto;
+        display: block;
+        float: right;
+    }
+
+    .close button {
+        border: none;
+        background: transparent;
+    }
+
+    .close button i {
+        font-size: 20px;
+        color: #800809;
+    }
+
+    .social {
+        display: none;
+    }
+
+    .menubar {
+        width: auto;
+        float: right;
+        display: block;
+    }
+
+    .menubar button {
+        border: none;
+        background: transparent;
+
+    }
+
+    .menubar button i {
+        font-size: 30px;
+        color: #800809;
+
+    }
+
+    .mainbntext button {
+        border: none;
+        padding: 12px 24px;
+        border-radius: 4px;
+
+    }
+
+    .itmeall {
+        gap: 29px;
+    }
+
+    .itmeimg {
+        width: 48%;
+    }
+
+    .itemsallll {
+        gap: 29px;
+    }
+
+    .teamall {
+        width: 48%;
+    }
+
+    .aboutcontent {
+        flex-direction: column-reverse;
+    }
+
+    .abtext {
+        width: 100%;
+    }
+
+    .abimg {
+        width: 100%;
+    }
+
+    .mainabtext button {
+        padding: 12px 24px;
+        border-radius: 4px;
+    }
+
+    .mainmaps {
+        flex-direction: column;
+    }
+
+    .mainabtextt {
+        gap: 29px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .alladdbox {
+        width: 48%;
+    }
+
+    .mainfooter {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+
+    section {
+        padding: 40px 0px 30px 0px;
+    }
+
+    .mainbanner {
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    .bntext {
+        width: 100%;
+    }
+
+    .bnimg {
+        width: 100%;
+    }
+
+    .itmeimg {
+        width: 100%;
+    }
+
+    .teamall {
+        width: 100%;
+    }
+
+}
